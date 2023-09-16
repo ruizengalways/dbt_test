@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: staging
+    database: proven-verve-398607
+    schema: dbt
+    
+    tables:
+      - name: green
+      - name: yellow
